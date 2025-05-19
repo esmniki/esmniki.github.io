@@ -1,0 +1,61 @@
+
+:root {
+  --bg-color: #fff0f5;
+  --snd-bg-color: #ffe6f0;
+  --text-color: #333;
+  --main-color: #ff69b4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  scroll-behavior: smooth;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url('cute pink wallpaper.jpeg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+.hero .content {
+  color: white;
+}
+
+.hero .subtitle {
+  font-size: 1.8rem;
+}
+
+.hero .name {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.hero .title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero .icons a {
+  margin: 0 10px;
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.hero .btn {
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}

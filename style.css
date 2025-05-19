@@ -1,0 +1,146 @@
+:root {
+  --bg-color: #fff0f5;
+  --snd-bg-color: #ffe6f0;
+  --text-color: #333;
+  --main-color: #ff69b4;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  scroll-behavior: smooth;
+}
+
+h2.heading {
+  text-align: center;
+  font-size: 3.2rem;
+  margin-bottom: 4rem;
+  color: var(--main-color);
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 5rem;
+}
+
+.exp-box, .project-box, .edu-box, .contact-info {
+  background: var(--snd-bg-color);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3rem;
+}
+
+.exp-title h3, .project-title h3, .edu-left h3, .edu-box.center-text h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.exp-title p, .project-title p, .edu-left p, .edu-box.center-text p {
+  font-size: 1.4rem;
+  margin: 0.3rem 0;
+}
+
+ul {
+  padding-left: 1.6rem;
+  list-style: disc;
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+
+.project-description p, .edu-box.center-text p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.skills ul li {
+  font-size: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.edu-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.edu-left, .edu-right {
+  flex: 1 1 45%;
+}
+
+.edu-box.center-text {
+  text-align: center;
+  flex-direction: column;
+}
+
+.contact-info p {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+.contact-info a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+.contact-info i {
+  margin-right: 8px;
+  font-size: 1.8rem;
+  color: var(--main-color);
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url('cute pink wallpaper.jpeg') no-repeat center center/cover;
+  height: 100vh;
+}
+
+.hero .content {
+  color: white;
+}
+
+.hero .subtitle {
+  font-size: 1.8rem;
+}
+
+.hero .name {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.hero .title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero .icons a {
+  margin: 0 10px;
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.hero .btn {
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
